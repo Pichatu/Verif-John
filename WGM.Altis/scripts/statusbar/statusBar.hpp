@@ -1,10 +1,9 @@
 #define ST_RIGHT 0x01
-
-class osefStatusBar {
+class statusBar {
 	idd = -1;
-	onLoad = "uiNamespace setVariable ['osefStatusBar', _this select 0]";
-	onUnload = "uiNamespace setVariable ['osefStatusBar', objNull]";
-	onDestroy = "uiNamespace setVariable ['osefStatusBar', objNull]";
+	onLoad = "uiNamespace setVariable ['statusBar', _this select 0]";
+	onUnload = "uiNamespace setVariable ['statusBar', objNull]";
+	onDestroy = "uiNamespace setVariable ['statusBar', objNull]";
 	fadein = 0;
 	fadeout = 0;
 	duration = 10e10;
@@ -19,15 +18,15 @@ class osefStatusBar {
 			w = 1;
 			h = 0.04;
 			shadow = 2;
-			colorBackground[] = { 1, 0.3, 0, 0.0 };  // uncomment and increase 4th number to have a background
+			colorBackground[] = { 1, 0.3, 0, 0.0 };
 			font = "PuristaSemibold";
 			size = 0.03;
 			type = 13;
 			style = 1;
-			text="Chargement des infos ...";
+			text="Chargement...";
 			class Attributes {
 				align="right";
-				color = "#FF8700";
+				color = "#04FF00";
 			};
 		};
 	};

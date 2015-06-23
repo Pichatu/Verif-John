@@ -63,6 +63,33 @@ life_delivery_in_progress = false;
 life_thirst = 100;
 life_hunger = 100;
 CASH = 0;
+life_licenses =
+[
+	["license_cop_air","cop"],
+	["license_cop_swat","cop"],
+	["license_cop_cg","cop"],
+	["license_civ_driver","civ"],
+	["license_civ_air","civ"],
+	["license_civ_heroin","civ"],
+	["license_civ_marijuana","civ"],
+	["license_civ_gang","civ"],
+	["license_civ_boat","civ"],
+	["license_civ_oil","civ"],
+	["license_civ_dive","civ"],
+	["license_civ_truck","civ"],
+	["license_civ_gun","civ"],
+	["license_civ_rebel","civ"],
+	["license_civ_coke","civ"],
+	["license_civ_diamond","civ"],
+	["license_civ_copper","civ"],
+	["license_civ_iron","civ"],
+	["license_civ_sand","civ"],
+	["license_civ_salt","civ"],
+	["license_civ_cement","civ"],
+	["license_civ_home", "civ"],
+	["license_civ_milice", "civ"],
+	["license_civ_mafia", "civ"]
+];
 
 life_istazed = false;
 life_vehicles = [];

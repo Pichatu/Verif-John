@@ -146,6 +146,8 @@ class VirtualItems {
 	VITEMMACRO(diamond_cut, "STR_Item_DiamondC", "diamondCut", 2, -1, 2000, false, -1, "")
 	VITEMMACRO(rock, "STR_Item_Rock", "rock", 6, -1, -1, false, -1, "")
 	VITEMMACRO(cement, "STR_Item_CementBag", "cement", 5, -1, 1950, false, -1, "")
+	VITEMMACRO(petrole_unprocessed, "STR_Item_petroleU", "petrolUnprocessed", 7, -1, -1, false, -1, "")
+	VITEMMACRO(petrol_processed, "STR_Item_petroleP", "petrolProcessed", 6, -1, 3200, false, -1, "")
 
 	//Drugs
 	VITEMMACRO(heroin_unprocessed, "STR_Item_HeroinU", "heroinUnprocessed", 6, -1, -1, true, -1, "")
@@ -205,6 +207,7 @@ class Licenses {
 	LICENSEMACRO(gun,"STR_License_Firearm","gun",10000,false,"civ")
 	LICENSEMACRO(dive,"STR_License_Diving","dive",2000,false,"civ")
 	LICENSEMACRO(oil,"STR_License_Oil","oil",10000,false,"civ")
+	LICENSEMACRO(petrole,"STR_License_petrole","petrole",5000,false,"civ")
 	LICENSEMACRO(cAir,"STR_License_Pilot","cAir",15000,false,"cop")
 	LICENSEMACRO(cg,"STR_License_CG","cg",8000,false,"cop")
 	LICENSEMACRO(heroin,"STR_License_Heroin","heroin",25000,true,"civ")
@@ -225,6 +228,7 @@ class Licenses {
 	LICENSEMACRO(giap,"STR_License_GIAP","giap",100000000,false,"cop")
 	LICENSEMACRO(taxi,"STR_License_taxi","taxi",50000,false,"civ")
 	LICENSEMACRO(milice,"STR_License_milice","milice",100000000,false,"civ")
+	LICENSEMACRO(mafia,"STR_License_mafia","mafia",100000000,false,"civ")
 };
 
 class VirtualShops {
@@ -261,6 +265,11 @@ class VirtualShops {
 	class oil {
 		name = "STR_Shops_Oil";
 		items[] = { "oil_processed", "pickaxe", "fuelFull" };
+	};
+	
+	class petrole {
+		name = "STR_Shops_petrole";
+		items[] = { "petrole_processed", "pickaxe", "fuelFull" };
 	};
 
 	class fishmarket {

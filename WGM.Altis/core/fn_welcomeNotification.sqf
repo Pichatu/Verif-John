@@ -4,17 +4,40 @@
 	Description:
 	Called upon first spawn selection and welcomes our player.
 */
-format["Welcome %1, Please read the following as it is important!",profileName] hintC
+/*format["Bienvenue %1, lisez attentivement ce qui suit",profileName] hintC
 [
-	"Welcome to the server! A few things have changed with Altis Life RPG that you need to be aware of!",
-	"An interaction key has been introduced which replaces the large majority of scroll wheel actions, this was for performance issues. By default this key is [Left Windows], you can change this key by pressing ESC and going to Configure->Controls->Custom
-	and bind 'Use Action 10' to a single key like H. This key is used for the following actions",
-	"Picking up items and money.",
-	"Fishing and gathering",
-	"Interacting with players (as a cop)",
-	"Interacting with vehicles (repairing and cop actions)",
-	"",
-	"If you are having issues with interacting / picking up items just wait. A quick way to know when you can interact with that item if the server allows it is by pressing your tilde key (~) and using the circle to highlight the object, when it says for example 'Pile of Money' then
-	that means you can pick it up!."
-];
-	
+	"Bienvenue sur le serveur Altis Life Watch-Games",
+	"Nous disposons d'un site: <t color='#AAF200'>http://watch-games.fr"</t>,
+	"Ainsi que d'un teamspeak public: <t color='#AAF200'>ts.watch-games.fr:14850"</t>,
+	"Veuillez prendre connaisance des règles sur le forum",
+	"Les admins:Caius,Diabolik",
+	"Les Modos:Lucifére",
+    "N'oubliez pas de faire sync data avant de quitter le serveur"
+];*/
+
+"" hintC parseText "<t><t size='1.5'>Bienvenue sur le serveur Altis Life Watch-Games</t><br/>
+<br/>
+<t>Site : </t><t color='#AAF200'>http://watch-games.fr/network/forum</t><br/>
+<t>TeamSpeak : </t><t color='#AAF200'>ts.watch-games.fr:14850</t><br/><br/>
+<t>Mod : </t><t color='#AAF200'>https://mega.co.nz/#!R41yVKwZ!F7LktGW18tvg5Emvt66gWscV_Vg6Xc_BQW1ACkyXnKM</t><br/><br/>
+
+<t color='#FF0000'>Consultez les règles avant de jouer !</t><br/>
+<t color='#FF0000'>Il est interdit de tuer,braquer et menacer dans les zones safes</t><br/>
+<t color='#FF0000'>Les zones safe :Kavala,Atm,Ville rebelle</t><br/><br/>
+<t color='#FF0000'>Attention les armes provenant d'addons ne sauvegardent pas dans les caisses</t><br/>
+
+<t size='1.5' color='#4182ea'>Commandes:</t><br/>
+<t color='#4182ea'>Recrutement Samu/Police [ON] </t><br/>
+<t color='#4182ea'>Sirène Police P </t><br/>
+<t color='#4182ea'>Boules quies molette</t><br/>
+<t color='#4182ea'>Se rendre/Voler argent: Shift + G </t><br/>
+<t color='#4182ea'>Assomer: Shift + R </t><br/>
+<t color='#4182ea'>Voler le téléphone d'une personne Shift + R </t><br/>
+<t color='#4182ea'>Miner: Y </t><br/>
+<t color='#4182ea'>Recolter: Touche Windows </t><br/>
+<t color='#4182ea'>Menotter: Shift + R </t><br/>
+<t color='#4182ea'>Coffre voiture: T </t><br/>
+<t color='#4182ea'>Ouvrir porte voitures/maisons: U </t><br/>
+<br/>
+
+";

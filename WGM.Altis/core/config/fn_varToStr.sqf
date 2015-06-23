@@ -15,6 +15,8 @@ switch (_var) do
 	//Virtual Inventory Items
 	case "life_inv_oilu": {(localize "STR_Item_OilU")};
 	case "life_inv_oilp": {(localize "STR_Item_OilP")};
+	case "life_inv_petroleu": {(localize "STR_Item_petroleU")};
+	case "life_inv_petrolep": {(localize "STR_Item_petroleP")};
 	case "life_inv_heroinu": {(localize "STR_Item_HeroinU")};
 	case "life_inv_heroinp": {(localize "STR_Item_HeroinP")};
 	case "life_inv_cannabis": {(localize "STR_Item_Cannabis")};
@@ -85,4 +87,6 @@ switch (_var) do
 	case "license_civ_cement": {(localize "STR_License_Cement")};
 	case "license_med_air": {(localize "STR_License_Pilot")};
 	case "license_civ_home": {(localize "STR_License_Home")};
+	case "license_civ_milice": {(localize "STR_License_milice")};
+	case "license_civ_mafia": {(localize "STR_License_mafia")};
 };

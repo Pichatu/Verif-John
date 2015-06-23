@@ -6,10 +6,14 @@ enableSaving[false,false];
 life_versionInfo = "Altis Life RPG v4.0";
 [] execVM "briefing.sqf"; //Load Briefing
 [] execVM "KRON_Strings.sqf";
-//[] execVM "scripts\MessageServeur.sqf";
+[] execVM "scripts\msgBienvenue.sqf";
 [] execVM "scripts\teargas.sqf";
 [] execVM "scripts\fieldRandom.sqf";
+[] execVM "scripts\AntiCheat\HackArgent.sqf";
 [] execVM "scripts\statusbar\statusBar.sqf";
+[] execVM "scripts\AntiCheat\Anticheat.sqf";
+[] execVM "scripts\fastrope.sqf";
+[] execVM "scripts\Chair\init.sqf";
 
 BipBipOn=true;
 publicVariable "BipBipOn";

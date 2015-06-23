@@ -2,13 +2,13 @@ waitUntil {!isNull player && player == player};
 if(player diarySubjectExists "rules")exitwith{};
 
 player createDiarySubject ["changelog","Change Log"];
-player createDiarySubject ["serverrules","General Rules"];
-player createDiarySubject ["policerules","Police Procedures/Rules"];
-player createDiarySubject ["safezones","Safe Zones (No Killing)"];
-//player createDiarySubject ["civrules","Civilian Rules"];
-player createDiarySubject ["illegalitems","Illegal Activity"];
-//player createDiarySubject ["gangrules","Gang Rules"];
-//player createDiarySubject ["terrorrules","Terrorism Rules"];
+player createDiarySubject ["serverrules","Regles"];
+player createDiarySubject ["policerules","Regles police"];
+player createDiarySubject ["safezones","Safe Zones"];
+//player createDiarySubject ["civrules","Regles Civil"];
+player createDiarySubject ["illegalitems","Activiter illegal"];
+//player createDiarySubject ["gangrules","Regles gang"];
+//player createDiarySubject ["terrorrules","Regles rebelles"];
 player createDiarySubject ["controls","Controls"];
 
 /*  Example

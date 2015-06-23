@@ -1,3 +1,4 @@
+#include "infiSTAR_AdminMenu.hpp"
 author = "Tonic and Itsyuka";
 onLoadName = "Altis Life RPG v4.0";
 onLoadMission = "| Altis Life par Tonic | Développement par WGM |";
@@ -7,7 +8,7 @@ respawndelay = 5;
 disabledAI = true;
 disableChannels[]={0,1,2};
 enableDebugConsole = 1;
-LoadScreen = "wgm.paa";
+LoadScreen = "wgm_altis.paa";
 respawnDialog = 0;
 
 class Header
@@ -24,10 +25,7 @@ corpseLimit = 150;
 corpseRemovalMinTime = 999;
 corpseRemovalMaxTime = 9999;
 
-//SpyGlass configuration
-SPY_Enable = true;
 
-#include "Config_Spyglass.hpp"
 
 #include "dialog\MasterHandler.h"
 #include "Config_Master.hpp"

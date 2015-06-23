@@ -11,11 +11,24 @@ class WeaponShops {
             { "hgun_Pistol_heavy_02_F", "", 9850 },
             { "hgun_ACPC2_F", "", 11500 },
             { "hgun_PDW2000_F", "", 20000 },
+			{ "Trixie_M14_Black", "", 20000 },
+			{ "Trixie_M14_Green", "", 20000 },
+			{ "Trixie_M14", "", 20000 },
+			{ "Trixie_M14DMR_Clean_Pink", "", 20000 },
+			{ "Trixie_M14DMR_Clean_Black", "", 20000 },
+			{ "Trixie_M14DMR_Clean", "", 20000 },
+			{ "Trixie_M14DMR_NG_Black_Short", "", 20000 },
+			{ "Trixie_M14DMR_NG_Short", "", 20000 },
+			{ "Trixie_M14DMR_NG_Black", "", 20000 },
+			{ "Trixie_M14DMR_NG", "", 20000 },
             { "optic_ACO_grn_smg", "", 2500 },
+			{ "optic_LRPS", "", 2500 },
             { "V_Rangemaster_belt", "", 4900 },
             { "16Rnd_9x21_Mag", "", 25 },
             { "9Rnd_45ACP_Mag", "", 45 },
             { "6Rnd_45ACP_Cylinder", "", 50 },
+			{ "Trixie_20x762_Mag", "", 50 },
+			{ "Trixie_5x762_Mag", "", 50 },
             { "30Rnd_9x21_Mag", "", 75 }
         };
     };
@@ -58,27 +71,14 @@ class WeaponShops {
             { "16Rnd_9x21_Mag", "", 25 },
             { "9Rnd_45ACP_Mag", "", 45 },
             { "6Rnd_45ACP_Cylinder", "", 50 },
+			{ "Trixie_M24_Black_Clean", "", 50 },
+			{ "Trixie_M24_Clean", "", 50 },
+			{ "Trixie_M24_Black", "", 50 },
+			{ "Trixie_M24", "", 50 },
+			{ "Trixie_M40A3_Clean", "", 50 },
+			{ "Trixie_M40A3", "", 50 },
+			{ "Trixie_M40A3_NG", "", 50 },
             { "30Rnd_9x21_Mag", "", 75 }
-        };
-    };
-    //Basic Shops
-    class genstore {
-        name = "Castorama";
-        side = "civ";
-        license = "";
-        level = -1;
-        msg = "";
-        items[] = {
-        	{ "Binocular", "", 150 },
-			{ "ItemGPS", "", 100 },
-			{ "ToolKit", "", 250 },
-			{ "FirstAidKit", "", 150 },
-			{ "NVGoggles", "", 2000 },
-			{ "Chemlight_red", "", 300 },
-			{ "Chemlight_yellow", "", 300 },
-			{ "Chemlight_green", "", 300 },
-			{ "Chemlight_blue", "", 300 },
-            { "ItemRadio", "Téléphone", 100 }
         };
     };
     //Cop Shops
@@ -277,79 +277,280 @@ class WeaponShops {
             { "B_FieldPack_ocamo", "", 0 }
         };
     };
-
-    class milice {
+	// milice shops
+    class milice_armes{
         name = "Armurerie Milice";
         side = "civ";
         license = "milice";
         level = -1;
         msg = "";
         items[] = {
-            { "launch_RPG7V", "", 0 },
-            { "Cha_Pecheneg", "", 0 },
-            { "Cha_PK", "", 0 },
-            { "srifle_DMR_01_F", "", 0 },
-            { "hgun_ACPC2_F", "", 0 },
-            { "hgun_Pistol_heavy_02_F", "", 0 },
-            { "hgun_Rook40_F", "", 0 },
-            { "hgun_Pistol_Signal_F", "", 0 },
-            { "Cha_100Rnd_762x54_PK", "", 0 },
-            { "Cha_100Rnd_762x54_PK_T", "", 0 },
-            { "10Rnd_762x51_Mag", "", 0 },
-            { "6Rnd_45ACP_Cylinder", "", 0 },
-            { "9Rnd_45ACP_Mag", "", 0 },
-            { "16Rnd_9x21_Mag", "", 0 },
-            { "RPG7_PG7VM", "", 0 },
-            { "RPG7_PG7VL", "", 0 },
-            { "RPG7_PG7VR", "", 0 },
-            { "RPG7_PG7V", "", 0 },
-            { "RPG7_OG7V", "", 0 },
-            { "RPG7_TBG7V", "", 0 },
-            { "RPG7_PG7V_AA", "", 0 },
-            { "RPG7_PG7VM_AA", "", 0 },
-            { "RPG7_PG7VL_AA", "", 0 },
-            { "RPG7_PG7V_APERS", "", 0 },
-            { "RPG7_PG7VM_APERS", "", 0 },
-            { "RPG7_PG7VL_APERS", "", 0 },
-            { "RPG7_PG7VL_APERS_AA", "", 0 },
-            { "RPG7_PG7VM_APERS_AA", "", 0 },
-            { "RPG7_PG7V_APERS_AA", "", 0 },
-            { "optic_Aco", "", 0 },
-            { "optic_ACO_grn", "", 0 },
-            { "optic_Aco_smg", "", 0 },
-            { "optic_ACO_grn_smg", "", 0 },
-            { "optic_Arco", "", 0 },
-            { "optic_DMS", "", 0 },
-            { "Trixie_LSMARK4", "", 0 },
-            { "optic_LRPS", "", 0 },
-            { "optic_MRCO", "", 0 },
-            { "optic_Hamr", "", 0 },
-            { "optic_SOS", "", 0 },
-            { "optic_nvs", "", 0 },
+            { "launch_RPG7V", "", 0 }, //Arme
+			{ "launch_RPG7V_F", "", 0 }, //Arme
+            { "Cha_Pecheneg", "", 0 }, //Arme
+            { "Cha_PK", "", 0 }, //Arme
+            { "srifle_DMR_01_F", "", 0 }, //Arme
+            { "hgun_ACPC2_F", "", 0 }, //Arme
+            { "hgun_Pistol_heavy_02_F", "", 0 }, //Arme
+            { "hgun_Rook40_F", "", 0 }, //Arme
+            { "hgun_Pistol_Signal_F", "", 0 }, //Arme
+			{ "hgun_Grach", "Grach", 0 }, //Arme
+			{ "hgun_Pistol_Signal_F", "Pistolet d'alarme", 0 }, //Arme
+			{ "hgun_Pistol_heavy_02_F", "Zubr", 0 }, //Arme
+			{ "arifle_SUD_AK105", "", 0 }, //Arme
+			{ "arifle_SUD_AK107_GL", "", 0 }, //Arme
+			{ "arifle_SUD_AK74M", "", 0 }, //Arme
+			{ "arifle_SUD_AK74M_GL", "", 0 }, //Arme
+			{ "arifle_SUD_AK107", "", 0 }, //Arme
+			{ "arifle_SUD_AKMS", "", 0 }, //Arme
+			{ "arifle_SUD_AKMS_GL", "", 0 }, //Arme
+			{ "LMG_SUD_Pecheneg_M", "", 0 }, //Arme
+			{ "Cha_PK", "PK", 0 }, //Arme
+			{ "srifle_SUD_SVD", "", 0 }, //Arme
+			{ "srifle_SUD_SVDS", "", 0 }, //Arme
+			{ "srifle_SUD_SVU107", "", 0 }, //Arme
+			{ "arifle_SUD_VAL", "", 0 }, //Arme
+			{ "srifle_SUD_VSS", "", 0 }, //Arme
+			{ "LMG_SUD_RPK107", "", 0 }, //Arme
+			{ "Cha_Pecheneg", "", 0 }, //Arme
+			{ "arifle_SDAR_F", "", 0 }, //Arme
+			{ "Trixie_AS50", "", 0 }, //Arme
+			{ "Trixie_AWM338_Ghillie", "", 0 }, //Arme
+			{ "Trixie_CZ750_Ghillie", "", 0 }, //Arme
+			{ "Trixie_CZ750_Black", "", 0 }, //Arme
+			{ "Trixie_CZ750", "", 0 }, //Arme
+            { "Trixie_LSMARK4", "", 0 }, //Arme
+			{ "Trixie_SB31250", "", 0 }, //Arme
+			{ "Trixie_SB31250_Net", "", 0 }, //Arme
+			{ "Trixie_LSMARK4", "", 0 }, //Arme
+			{ "Trixie_LSMARK4_Delta_Camo", "", 0 }, //Arme
+			{ "Trixie_LSMARK4_Net", "", 0 }, //Arme
+			{ "Trixie_LSMARK4_Delta", "", 0 }, //Arme
+			 { "NVGoggles", "", 0 }, //Arme
+            { "NVGoggles_INDEP", "", 0 }, //Arme
+            { "NVGoggles_OPFOR", "", 0 }, //Arme
+            { "Binocular", "", 0 }, //Arme
+            { "Rangefinder", "", 0 }, //Arme
             { "acc_flashlight", "", 0 },
             { "acc_pointer_IR", "", 0 },
-            { "muzzle_snds_B", "", 0 },
-            { "optic_NSPU_RPG", "", 0 },
-            { "optic_PGO7V", "", 0 },
-            { "optic_PGO7V2", "", 0 },
-            { "optic_PGO7V3", "", 0 },
-            { "muzzle_snds_L", "", 0 },
-            { "muzzle_snds_acp", "", 0 },
-            { "optic_Yorris", "", 0 },
-            { "6Rnd_GreenSignal_F", "", 0 },
-            { "6Rnd_RedSignal_F", "", 0 },
-            { "IEDUrbanBig_Remote_Mag", "", 0 },
-            { "IEDLandBig_Remote_Mag", "", 0 },
-            { "IEDUrbanSmall_Remote_Mag", "", 0 },
-            { "IEDLandSmall_Remote_Mag", "", 0 },
-            { "APERSTripMine_Wire_Mag", "", 0 },
-            { "SmokeShell", "", 0 },
-            { "SmokeShellRed", "", 0 },
-            { "NVGoggles", "", 0 },
-            { "NVGoggles_INDEP", "", 0 },
-            { "NVGoggles_OPFOR", "", 0 },
-            { "Binocular", "", 0 },
-            { "Rangefinder", "", 0 }
+            { "IEDLandBig_Remote_Mag", "", 0 }, //explosif
+            { "IEDUrbanSmall_Remote_Mag", "", 0 }, //explosif
+            { "IEDLandSmall_Remote_Mag", "", 0 }, //explosif
+            { "APERSTripMine_Wire_Mag", "", 0 }, //explosif
+            { "SmokeShell", "", 0 }, //explosif
+            { "SmokeShellRed", "", 0 } //explosif
+           
+        };
+    };
+	
+	class milice_viseurs {
+        name = "Armurerie Milice";
+        side = "civ";
+        license = "milice";
+        level = -1;
+        msg = "";
+        items[] = {
+			{ "optic_Yorris", "", 0 }, //Viseur
+			{ "optic_sud_1p29", "1P29_X4", 0 }, //Viseur
+			{ "optic_sud_Cobra", "COBRA", 0 }, //Viseur
+			{ "optic_sud_goshawk", "GOSHAWK", 0 }, //Viseur
+			{ "optic_sud_Krechet", "KRECHET", 0 }, //Viseur
+			{ "optic_sud_Krechet_M", "KRECHET_X4", 0 }, //Viseur
+			{ "optic_sud_pso1", "PS0-1", 0 },
+			{ "optic_sud_PSO4", "PS0-4", 0 },
+			{ "optic_sud_pso4_camo", "PS0-4camo", 0 },
+			{ "optic_Yorris", "Viseur Yorris_Zubr", 0 },
+			{ "optic_NSPU_RPG", "NSPU", 0 }, //Viseur
+			{ "optic_PGO7V", "PGO7V", 0 }, //Viseur
+			{ "optic_PGO7V2", "PGO7V2", 0 }, //Viseur
+			{ "optic_PGO7V3", "PGO7V3", 0 }, //Viseur
+			{ "optic_NSPU_RPG", "", 0 }, //Viseur
+            { "optic_PGO7V", "", 0 }, //Viseur
+            { "optic_PGO7V2", "", 0 }, //Viseur
+            { "optic_PGO7V3", "", 0 }, //Viseur
+			{ "optic_Aco", "", 0 }, //Viseur
+            { "optic_ACO_grn", "", 0 }, //Viseur
+            { "optic_Aco_smg", "", 0 }, //Viseur
+            { "optic_ACO_grn_smg", "", 0 }, //Viseur
+            { "optic_Arco", "", 0 }, //Viseur
+            { "optic_DMS", "", 0 }, //Viseur
+            { "optic_LRPS", "", 0 }, //Viseur
+            { "optic_MRCO", "", 0 }, //Viseur
+            { "optic_Hamr", "", 0 }, //Viseur
+            { "optic_SOS", "", 0 }, //Viseur
+            { "optic_nvs", "", 0 }, //Viseur
+			{ "Trixie_M68CCO", "", 0 }, //Viseur
+			{ "muzzle_sud_tgp_a", "", 0 }, //Viseur
+			{ "muzzle_sud_tgp_b", "", 0 } //Viseur
+        };
+    };
+	
+	class milice_silencieux {
+        name = "Armurerie Milice";
+        side = "civ";
+        license = "milice";
+        level = -1;
+        msg = "";
+        items[] = {
+			{ "muzzle_snds_B", "", 0 }, //Silencieux
+            { "muzzle_snds_L", "", 0 }, //Silencieux
+            { "muzzle_snds_acp", "", 0 } //Silencieux
+        };
+    };
+	
+	class milice_munitions {
+        name = "Armurerie Milice";
+        side = "civ";
+        license = "milice";
+        level = -1;
+        msg = "";
+        items[] = {
+			{ "Cha_100Rnd_762x54_PK", "", 0 }, //munition
+            { "Cha_100Rnd_762x54_PK_T", "", 0 }, //munition
+            { "10Rnd_762x51_Mag", "", 0 }, //munition
+            { "6Rnd_45ACP_Cylinder", "", 0 }, //munition
+            { "9Rnd_45ACP_Mag", "", 0 }, //munition
+            { "16Rnd_9x21_Mag", "", 0 }, //munition
+            { "RPG7_PG7VM", "", 0 }, //munition
+            { "RPG7_PG7VL", "", 0 }, //munition
+            { "RPG7_PG7VR", "", 0 }, //munition
+            { "RPG7_PG7V", "", 0 }, //munition
+            { "RPG7_OG7V", "", 0 }, //munition
+            { "RPG7_TBG7V", "", 0 }, //munition
+            { "RPG7_PG7V_AA", "", 0 }, //munition
+            { "RPG7_PG7VM_AA", "", 0 }, //munition
+            { "RPG7_PG7VL_AA", "", 0 }, //munition
+            { "RPG7_PG7V_APERS", "", 0 }, //munition
+            { "RPG7_PG7VM_APERS", "", 0 }, //munition
+            { "RPG7_PG7VL_APERS", "", 0 }, //munition
+            { "RPG7_PG7VL_APERS_AA", "", 0 }, //munition
+            { "RPG7_PG7VM_APERS_AA", "", 0 }, //munition
+            { "RPG7_PG7V_APERS_AA", "", 0 }, //munition
+			{ "75Rnd_545x39_RPK107", "RPK-107drum", 0 }, //munition
+			{ "30Rnd_545x39_AK107", "AK-107magazine", 0 }, //munition
+			{ "10Rnd_762x54_SVU107", "SVU/SVDmagazine", 0 }, //munition
+			{ "100Rnd_762x54_PK", "PECHENEG-Mmag", 0 }, //munition
+			{ "Cha_100Rnd_762x54_PK", "PKM/PKP", 0 }, //munition
+			{ "Cha_100Rnd_762x54_PK_T", "20Rnd_556x45_UW_mag", 0 }, //munition
+			{ "16Rnd_9x21_Mag", "Chargeur 16 balles 9mm", 0 }, //munition
+			{ "30Rnd_9x21_Mag", "Chargeur 30 balles 9mm", 0 }, //munition
+			{ "6Rnd_GreenSignal_F", "Fusées_vertes", 0 }, //munition
+			{ "6Rnd_RedSignal_F", "Fusées_rouges", 0 }, //munition
+			{ "6Rnd_45ACP_Cylinder", "Cylindre 6 balles 45ACP", 0 }, //munition
+			{ "PG7V_F", "PG7V", 0 }, //munition
+			{ "20Rnd_9x39_VSS", "VSS/VALmagazine", 0 }, //munition
+			{ "RPG7_OG7V", "", 0 }, //munition
+			{ "RPG7_PG7V_APERS", "", 0 }, //munition
+			{ "RPG7_PG7VM_AA", "", 0 }, //munition
+			{ "RPG7_PG7VL_AA", "", 0 }, //munition
+			{ "RPG7_PG7V_AA", "", 0 }, //munition
+			{ "Trixie_10x127_HE_Mag", "", 0 }, //munition
+			{ "Trixie_10x127_HEIAP_Mag", "", 0 }, //munition
+			{ "30Rnd_762x39_AKM", "", 0 }, //munition
+			{ "6Rnd_GreenSignal_F", "", 0 }, //munition
+            { "6Rnd_RedSignal_F", "", 0 }, //munition
+            { "IEDUrbanBig_Remote_Mag", "", 0 } //munition
+        };
+    };
+	
+	//Mafia Shops
+class mafia_armes{
+        name = "Armurerie Mafia";
+        side = "civ";
+        license = "mafia";
+        level = -1;
+        msg = "";
+        items[] = {
+            { "arifle_SUD_AKMS", "", 0 },
+			{ "Trixie_M14_Black", "", 0 },
+			{ "Trixie_M14_Green", "", 0 },
+			{ "Trixie_M14", "", 0 },
+			{ "Trixie_M14DMR_Clean_Pink", "", 0 },
+			{ "Trixie_M14DMR_Clean_Black", "", 0 },
+			{ "Trixie_M14DMR_Clean", "", 0 },
+			{ "Trixie_M14DMR_NG_Black_Short", "", 0 },
+			{ "Trixie_M14DMR_NG_Short", "", 0 },
+			{ "Trixie_M14DMR_NG_Black", "", 0 },
+			{ "Trixie_M14DMR_NG", "", 0 },
+			{ "Trixie_M24_Black_Clean", "", 0 },
+			{ "Trixie_M24_Clean", "", 0 },
+			{ "Trixie_M24_Black", "", 0 },
+			{ "Trixie_M24", "", 0 },
+			{ "Trixie_M40A3_Clean", "", 0 },
+			{ "Trixie_M40A3", "", 0 },
+			{ "Trixie_M40A3_NG", "", 0 },
+			{ "hgun_PDW2000_F", "", 0 },
+			{ "SMG_02_F", "", 0 },
+			{ "SMG_01_F", "", 0 },
+			{ "arifle_TRG20_F", "", 0 },
+			{ "arifle_Mk20C_plain_F", "", 0 },
+			{ "arifle_Katiba_C_F", "", 0 },
+			{ "arifle_MXC_Black_F", "", 0 },
+			{ "hgun_Rook40_F", "", 0 },
+			{ "hgun_Pistol_heavy_02_F", "", 0 },
+			{ "hgun_ACPC2_F", "", 0 }
+			
+           
+        };
+    };
+	
+	class mafia_viseurs {
+        name = "Armurerie Mafia";
+        side = "civ";
+        license = "mafia";
+        level = -1;
+        msg = "";
+        items[] = {
+			{ "optic_Yorris", "", 0 },
+			{ "optic_Aco", "", 0 },
+			{ "optic_ACO_grn", "", 0 },
+			{ "optic_Aco_smg", "", 0 },
+			{ "optic_ACO_grn_smg", "", 0 },
+			{ "optic_Arco", "", 0 },
+			{ "Trixie_LSMARK4", "", 0 },
+			{ "Trixie_LSMARK4_Delta_Camo", "", 0 }
+        };
+    };
+	
+	class mafia_munitions {
+        name = "Armurerie Mafia";
+        side = "civ";
+        license = "mafia";
+        level = -1;
+        msg = "";
+        items[] = {
+			{ "30Rnd_762x39_AKM", "", 0 },
+			{ "30rnd_556x45_stanag", "", 0 },
+			{ "30Rnd_65x39_caseless_mag", "", 0 },
+			{ "30Rnd_9x21_Mag", "", 0 },
+			{ "16Rnd_9x21_Mag", "", 0 },
+			{ "30Rnd_65x39_caseless_green", "", 0 },
+			{ "30Rnd_65x39_caseless_green_mag_Tracer", "", 0 },
+			{ "6Rnd_45ACP_Cylinder", "", 0 },
+			{ "Trixie_20x762_Mag", "", 0 },
+			{ "9Rnd_45ACP_Mag", "", 0 }
+        };
+    };
+	
+	
+	//Basic Shops
+    class genstore {
+        name = "Castorama";
+        side = "civ";
+        license = "";
+        level = -1;
+        msg = "";
+        items[] = {
+        	{ "Binocular", "", 150 },
+			{ "ItemGPS", "", 100 },
+			{ "ToolKit", "", 250 },
+			{ "FirstAidKit", "", 150 },
+			{ "NVGoggles", "", 2000 },
+			{ "Chemlight_red", "", 300 },
+			{ "Chemlight_yellow", "", 300 },
+			{ "Chemlight_green", "", 300 },
+			{ "Chemlight_blue", "", 300 },
+            { "ItemRadio", "Téléphone", 100 }
         };
     };
 

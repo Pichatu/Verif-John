@@ -17,6 +17,7 @@ switch (_type) do
 	case "gun": {10000}; //Firearm/gun license cost
 	case "dive": {2000}; //Diving license cost
 	case "oil": {10000}; //Oil processing license cost
+	case "petrole": {5000}; //petrole processing license cost
 	case "cair": {15000}; //Cop Pilot License cost
 	case "swat": {35000}; //Swat License cost
 	case "cg": {8000}; //Coast guard license cost
@@ -38,5 +39,6 @@ switch (_type) do
 	case "legion": {100000000};
 	case "giap": {100000000};
 	case "milice": {100000000};
+	case "mafia": {100000000};
 	case "taxi": {50000};
 };

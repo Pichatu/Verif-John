@@ -8,183 +8,6 @@ class CarShops {
 	class civ_car {
 		side = "civ";
 		vehicles[] = {
-			{ "C_Van_01_fuel_F", 0, "driver" }, 
-			{ "cl3_458_yellow", 0, "driver" },
-			{ "cl3_458_black", 0, "driver" },
-			{ "cl3_458_blue", 0, "driver" },
-			{ "cl3_458_aqua", 0, "driver" },
-			{ "cl3_458_babyblue", 0, "driver" },
-			{ "cl3_458_babypink", 0, "driver" },
-			{ "cl3_458_red", 0, "driver" },
-			{ "cl3_458_burgundy", 0, "driver" },
-			{ "cl3_458_cardinal", 0, "driver" },
-			{ "cl3_458_dark_green", 0, "driver" },
-			{ "cl3_458_gold", 0, "driver" },
-			{ "cl3_458_green", 0, "driver" },
-			{ "cl3_458_grey", 0, "driver" },
-			{ "cl3_458_lavender", 0, "driver" },
-			{ "cl3_458_light_blue", 0, "driver" },
-			{ "cl3_458_light_yellow", 0, "driver" },
-			{ "cl3_458_lime", 0, "driver" },
-			{ "cl3_458_marina_blue", 0, "driver" },
-			{ "cl3_458_navy_blue", 0, "driver" },
-			{ "cl3_458_orange", 0, "driver" },
-			{ "cl3_458_purple", 0, "driver" },
-			{ "cl3_458_sand", 0, "driver" },
-			{ "cl3_458_silver", 0, "driver" },
-			{ "cl3_458_camo", 0, "driver" },
-			{ "cl3_458_camo_urban", 0, "driver" },
-			{ "cl3_458_white", 0, "driver" },
-			{ "cl3_458_violet", 0, "driver" },
-			{ "cl3_458_flame", 0, "driver" },
-			{ "cl3_458_flame1", 0, "driver" },
-			{ "cl3_458_flame2", 0, "driver" },
-			{ "cl3_458_2tone1", 0, "driver" },
-			{ "cl3_458_2tone2", 0, "driver" },
-			{ "cl3_458_2tone3", 0, "driver" },
-			{ "cl3_458_2tone4", 0, "driver" },
-			{ "cl3_458_2tone5", 0, "driver" },
-			{ "cl3_reventon_yellow", 0, "driver" },
-			{ "cl3_reventon_black", 0, "driver" },
-			{ "cl3_reventon_blue", 0, "driver" },
-			{ "cl3_reventon_aqua", 0, "driver" },
-			{ "cl3_reventon_babyblue", 0, "driver" },
-			{ "cl3_reventon_babypink", 0, "driver" },
-			{ "cl3_reventon_red", 0, "driver" },
-			{ "cl3_reventon_burgundy", 0, "driver" },
-			{ "cl3_reventon_cardinal", 0, "driver" },
-			{ "cl3_reventon_dark_green", 0, "driver" },
-			{ "cl3_reventon_gold", 0, "driver" },
-			{ "cl3_reventon_green", 0, "driver" },
-			{ "cl3_reventon_grey", 0, "driver" },
-			{ "cl3_reventon_lavender", 0, "driver" },
-			{ "cl3_reventon_light_blue", 0, "driver" },
-			{ "cl3_reventon_light_yellow", 0, "driver" },
-			{ "cl3_reventon_lime", 0, "driver" },
-			{ "cl3_reventon_marina_blue", 0, "driver" },
-			{ "cl3_reventon_navy_blue", 0, "driver" },
-			{ "cl3_reventon_orange", 0, "driver" },
-			{ "cl3_reventon_purple", 0, "driver" },
-			{ "cl3_reventon_sand", 0, "driver" },
-			{ "cl3_reventon_silver", 0, "driver" },
-			{ "cl3_reventon_camo", 0, "driver" },
-			{ "cl3_reventon_camo_urban", 0, "driver" },
-			{ "cl3_reventon_white", 0, "driver" },
-			{ "cl3_reventon_violet", 0, "driver" },
-			{ "cl3_reventon_flame", 0, "driver" },
-			{ "cl3_reventon_flame1", 0, "driver" },
-			{ "cl3_reventon_flame2", 0, "driver" },
-			{ "cl3_reventon_2tone1", 0, "driver" },
-			{ "cl3_reventon_2tone2", 0, "driver" },
-			{ "cl3_reventon_2tone3", 0, "driver" },
-			{ "cl3_reventon_2tone4", 0, "driver" },
-			{ "cl3_reventon_2tone5", 0, "driver" },
-			{ "cl3_reventon_clpd", 0, "driver" },
-			{ "cl3_lamborghini_gt1_yellow", 0, "driver" },
-			{ "cl3_lamborghini_gt1_black", 0, "driver" },
-			{ "cl3_lamborghini_gt1_blue", 0, "driver" },
-			{ "cl3_lamborghini_gt1_aqua", 0, "driver" },
-			{ "cl3_lamborghini_gt1_babyblue", 0, "driver" },
-			{ "cl3_lamborghini_gt1_babypink", 0, "driver" },
-			{ "cl3_lamborghini_gt1_red", 0, "driver" },
-			{ "cl3_lamborghini_gt1_burgundy", 0, "driver" },
-			{ "cl3_lamborghini_gt1_cardinal", 0, "driver" },
-			{ "cl3_lamborghini_gt1_dark_green", 0, "driver" },
-			{ "cl3_lamborghini_gt1_gold", 0, "driver" },
-			{ "cl3_lamborghini_gt1_green", 0, "driver" },
-			{ "cl3_lamborghini_gt1_grey", 0, "driver" },
-			{ "cl3_lamborghini_gt1_lavender", 0, "driver" },
-			{ "cl3_lamborghini_gt1_light_blue", 0, "driver" },
-			{ "cl3_lamborghini_gt1_light_yellow", 0, "driver" },
-			{ "cl3_lamborghini_gt1_lime", 0, "driver" },
-			{ "cl3_lamborghini_gt1_marina_blue", 0, "driver" },
-			{ "cl3_lamborghini_gt1_navy_blue", 0, "driver" },
-			{ "cl3_lamborghini_gt1_orange", 0, "driver" },
-			{ "cl3_lamborghini_gt1_purple", 0, "driver" },
-			{ "cl3_lamborghini_gt1_sand", 0, "driver" },
-			{ "cl3_lamborghini_gt1_silver", 0, "driver" },
-			{ "cl3_lamborghini_gt1_camo", 0, "driver" },
-			{ "cl3_lamborghini_gt1_camo_urban", 0, "driver" },
-			{ "cl3_lamborghini_gt1_white", 0, "driver" },
-			{ "cl3_lamborghini_gt1_violet", 0, "driver" },
-			{ "cl3_lamborghini_gt1_flame", 0, "driver" },
-			{ "cl3_lamborghini_gt1_flame1", 0, "driver" },
-			{ "cl3_lamborghini_gt1_flame2", 0, "driver" },
-			{ "cl3_lamborghini_gt1_2tone1", 0, "driver" },
-			{ "cl3_lamborghini_gt1_2tone2", 0, "driver" },
-			{ "cl3_lamborghini_gt1_2tone3", 0, "driver" },
-			{ "cl3_lamborghini_gt1_2tone4", 0, "driver" },
-			{ "cl3_lamborghini_gt1_2tone5", 0, "driver" },
-			{ "cl3_murcielago_yellow", 0, "driver" },
-			{ "cl3_murcielago_black", 0, "driver" },
-			{ "cl3_murcielago_blue", 0, "driver" },
-			{ "cl3_murcielago_aqua", 0, "driver" },
-			{ "cl3_murcielago_babyblue", 0, "driver" },
-			{ "cl3_murcielago_babypink", 0, "driver" },
-			{ "cl3_murcielago_red", 0, "driver" },
-			{ "cl3_murcielago_burgundy", 0, "driver" },
-			{ "cl3_murcielago_cardinal", 0, "driver" },
-			{ "cl3_murcielago_dark_green", 0, "driver" },
-			{ "cl3_murcielago_gold", 0, "driver" },
-			{ "cl3_murcielago_green", 0, "driver" },
-			{ "cl3_murcielago_grey", 0, "driver" },
-			{ "cl3_murcielago_lavender", 0, "driver" },
-			{ "cl3_murcielago_light_blue", 0, "driver" },
-			{ "cl3_murcielago_light_yellow", 0, "driver" },
-			{ "cl3_murcielago_lime", 0, "driver" },
-			{ "cl3_murcielago_marina_blue", 0, "driver" },
-			{ "cl3_murcielago_navy_blue", 0, "driver" },
-			{ "cl3_murcielago_orange", 0, "driver" },
-			{ "cl3_murcielago_purple", 0, "driver" },
-			{ "cl3_murcielago_sand", 0, "driver" },
-			{ "cl3_murcielago_silver", 0, "driver" },
-			{ "cl3_murcielago_camo", 0, "driver" },
-			{ "cl3_murcielago_camo_urban", 0, "driver" },
-			{ "cl3_murcielago_white", 0, "driver" },
-			{ "cl3_murcielago_violet", 0, "driver" },
-			{ "cl3_murcielago_flame", 0, "driver" },
-			{ "cl3_murcielago_flame1", 0, "driver" },
-			{ "cl3_murcielago_flame2", 0, "driver" },
-			{ "cl3_murcielago_2tone1", 0, "driver" },
-			{ "cl3_murcielago_2tone2", 0, "driver" },
-			{ "cl3_murcielago_2tone3", 0, "driver" },
-			{ "cl3_murcielago_2tone4", 0, "driver" },
-			{ "cl3_murcielago_2tone5", 0, "driver" },
-			{ "cl3_r8_spyder_yellow", 0, "driver" },
-			{ "cl3_r8_spyder_black", 0, "driver" },
-			{ "cl3_r8_spyder_blue", 0, "driver" },
-			{ "cl3_r8_spyder_aqua", 0, "driver" },
-			{ "cl3_r8_spyder_babyblue", 0, "driver" },
-			{ "cl3_r8_spyder_babypink", 0, "driver" },
-			{ "cl3_r8_spyder_red", 0, "driver" },
-			{ "cl3_r8_spyder_burgundy", 0, "driver" },
-			{ "cl3_r8_spyder_cardinal", 0, "driver" },
-			{ "cl3_r8_spyder_dark_green", 0, "driver" },
-			{ "cl3_r8_spyder_gold", 0, "driver" },
-			{ "cl3_r8_spyder_green", 0, "driver" },
-			{ "cl3_r8_spyder_grey", 0, "driver" },
-			{ "cl3_r8_spyder_lavender", 0, "driver" },
-			{ "cl3_r8_spyder_light_blue", 0, "driver" },
-			{ "cl3_r8_spyder_light_yellow", 0, "driver" },
-			{ "cl3_r8_spyder_lime", 0, "driver" },
-			{ "cl3_r8_spyder_marina_blue", 0, "driver" },
-			{ "cl3_r8_spyder_navy_blue", 0, "driver" },
-			{ "cl3_r8_spyder_orange", 0, "driver" },
-			{ "cl3_r8_spyder_purple", 0, "driver" },
-			{ "cl3_r8_spyder_sand", 0, "driver" },
-			{ "cl3_r8_spyder_silver", 0, "driver" },
-			{ "cl3_r8_spyder_camo", 0, "driver" },
-			{ "cl3_r8_spyder_camo_urban", 0, "driver" },
-			{ "cl3_r8_spyder_white", 0, "driver" },
-			{ "cl3_r8_spyder_violet", 0, "driver" },
-			{ "cl3_r8_spyder_flame", 0, "driver" },
-			{ "cl3_r8_spyder_flame1", 0, "driver" },
-			{ "cl3_r8_spyder_flame2", 0, "driver" },
-			{ "cl3_r8_spyder_2tone1", 0, "driver" },
-			{ "cl3_r8_spyder_2tone2", 0, "driver" },
-			{ "cl3_r8_spyder_2tone3", 0, "driver" },
-			{ "cl3_r8_spyder_2tone4", 0, "driver" },
-			{ "cl3_r8_spyder_2tone5", 0, "driver" },
 			{ "cl3_dbs_volanteyellow", 0, "driver" },
 			{ "cl3_dbs_volanteblack", 0, "driver" },
 			{ "cl3_dbs_volanteblue", 0, "driver" },
@@ -220,41 +43,41 @@ class CarShops {
 			{ "cl3_dbs_volante2tone3", 0, "driver" },
 			{ "cl3_dbs_volante2tone4", 0, "driver" },
 			{ "cl3_dbs_volante2tone5", 0, "driver" },
-			{ "cl3_q7_yellow", 0, "driver" },
-			{ "cl3_q7_black", 0, "driver" },
-			{ "cl3_q7_blue", 0, "driver" },
-			{ "cl3_q7_aqua", 0, "driver" },
-			{ "cl3_q7_babyblue", 0, "driver" },
-			{ "cl3_q7_babypink", 0, "driver" },
-			{ "cl3_q7_red", 0, "driver" },
-			{ "cl3_q7_burgundy", 0, "driver" },
-			{ "cl3_q7_cardinal", 0, "driver" },
-			{ "cl3_q7_dark_green", 0, "driver" },
-			{ "cl3_q7_gold", 0, "driver" },
-			{ "cl3_q7_green", 0, "driver" },
-			{ "cl3_q7_grey", 0, "driver" },
-			{ "cl3_q7_lavender", 0, "driver" },
-			{ "cl3_q7_light_blue", 0, "driver" },
-			{ "cl3_q7_light_yellow", 0, "driver" },
-			{ "cl3_q7_lime", 0, "driver" },
-			{ "cl3_q7_marina_blue", 0, "driver" },
-			{ "cl3_q7_navy_blue", 0, "driver" },
-			{ "cl3_q7_orange", 0, "driver" },
-			{ "cl3_q7_purple", 0, "driver" },
-			{ "cl3_q7_sand", 0, "driver" },
-			{ "cl3_q7_silver", 0, "driver" },
-			{ "cl3_q7_camo", 0, "driver" },
-			{ "cl3_q7_camo_urban", 0, "driver" },
-			{ "cl3_q7_white", 0, "driver" },
-			{ "cl3_q7_violet", 0, "driver" },
-			{ "cl3_q7_flame", 0, "driver" },
-			{ "cl3_q7_flame1", 0, "driver" },
-			{ "cl3_q7_flame2", 0, "driver" },
-			{ "cl3_q7_2tone1", 0, "driver" },
-			{ "cl3_q7_2tone2", 0, "driver" },
-			{ "cl3_q7_2tone3", 0, "driver" },
-			{ "cl3_q7_2tone4", 0, "driver" },
-			{ "cl3_q7_2tone5", 0, "driver" },
+			{ "cl3_q7_yellow", 0, "driver" }, //audi Q7
+			{ "cl3_q7_black", 0, "driver" }, //audi Q7
+			{ "cl3_q7_blue", 0, "driver" }, //audi Q7
+			{ "cl3_q7_aqua", 0, "driver" }, //audi Q7
+			{ "cl3_q7_babyblue", 0, "driver" }, //audi Q7
+			{ "cl3_q7_babypink", 0, "driver" }, //audi Q7
+			{ "cl3_q7_red", 0, "driver" }, //audi Q7
+			{ "cl3_q7_burgundy", 0, "driver" }, //audi Q7
+			{ "cl3_q7_cardinal", 0, "driver" }, //audi Q7
+			{ "cl3_q7_dark_green", 0, "driver" }, //audi Q7
+			{ "cl3_q7_gold", 0, "driver" }, //audi Q7
+			{ "cl3_q7_green", 0, "driver" }, //audi Q7
+			{ "cl3_q7_grey", 0, "driver" }, //audi Q7
+			{ "cl3_q7_lavender", 0, "driver" }, //audi Q7
+			{ "cl3_q7_light_blue", 0, "driver" }, //audi Q7
+			{ "cl3_q7_light_yellow", 0, "driver" }, //audi Q7
+			{ "cl3_q7_lime", 0, "driver" }, //audi Q7
+			{ "cl3_q7_marina_blue", 0, "driver" }, //audi Q7
+			{ "cl3_q7_navy_blue", 0, "driver" }, //audi Q7
+			{ "cl3_q7_orange", 0, "driver" }, //audi Q7
+			{ "cl3_q7_purple", 0, "driver" }, //audi Q7
+			{ "cl3_q7_sand", 0, "driver" }, //audi Q7
+			{ "cl3_q7_silver", 0, "driver" }, //audi Q7
+			{ "cl3_q7_camo", 0, "driver" }, //audi Q7
+			{ "cl3_q7_camo_urban", 0, "driver" }, //audi Q7
+			{ "cl3_q7_white", 0, "driver" }, //audi Q7
+			{ "cl3_q7_violet", 0, "driver" }, //audi Q7
+			{ "cl3_q7_flame", 0, "driver" }, //audi Q7
+			{ "cl3_q7_flame1", 0, "driver" }, //audi Q7
+			{ "cl3_q7_flame2", 0, "driver" }, //audi Q7
+			{ "cl3_q7_2tone1", 0, "driver" }, //audi Q7 
+			{ "cl3_q7_2tone2", 0, "driver" }, //audi Q7
+			{ "cl3_q7_2tone3", 0, "driver" }, //audi Q7
+			{ "cl3_q7_2tone4", 0, "driver" }, //audi Q7
+			{ "cl3_q7_2tone5", 0, "driver" }, //audi Q7
 			{ "cl3_e60_m5_yellow", 0, "driver" },
 			{ "cl3_e60_m5_black", 0, "driver" },
 			{ "cl3_e60_m5_blue", 0, "driver" },
@@ -430,76 +253,41 @@ class CarShops {
 			{ "cl3_e63_amg_2tone3", 0, "driver" },
 			{ "cl3_e63_amg_2tone4", 0, "driver" },
 			{ "cl3_e63_amg_2tone5", 0, "driver" },
-			{ "cl3_carrera_gt_yellow", 0, "driver" },
-			{ "cl3_carrera_gt_black", 0, "driver" },
-			{ "cl3_carrera_gt_blue", 0, "driver" },
-			{ "cl3_carrera_gt_aqua", 0, "driver" },
-			{ "cl3_carrera_gt_babyblue", 0, "driver" },
-			{ "cl3_carrera_gt_babypink", 0, "driver" },
-			{ "cl3_carrera_gt_red", 0, "driver" },
-			{ "cl3_carrera_gt_burgundy", 0, "driver" },
-			{ "cl3_carrera_gt_cardinal", 0, "driver" },
-			{ "cl3_carrera_gt_dark_green", 0, "driver" },
-			{ "cl3_carrera_gt_gold", 0, "driver" },
-			{ "cl3_carrera_gt_green", 0, "driver" },
-			{ "cl3_carrera_gt_grey", 0, "driver" },
-			{ "cl3_carrera_gt_lavender", 0, "driver" },
-			{ "cl3_carrera_gt_light_blue", 0, "driver" },
-			{ "cl3_carrera_gt_light_yellow", 0, "driver" },
-			{ "cl3_carrera_gt_lime", 0, "driver" },
-			{ "cl3_carrera_gt_marina_blue", 0, "driver" },
-			{ "cl3_carrera_gt_navy_blue", 0, "driver" },
-			{ "cl3_carrera_gt_orange", 0, "driver" },
-			{ "cl3_carrera_gt_purple", 0, "driver" },
-			{ "cl3_carrera_gt_sand", 0, "driver" },
-			{ "cl3_carrera_gt_silver", 0, "driver" },
-			{ "cl3_carrera_gt_camo", 0, "driver" },
-			{ "cl3_carrera_gt_camo_urban", 0, "driver" },
-			{ "cl3_carrera_gt_white", 0, "driver" },
-			{ "cl3_carrera_gt_violet", 0, "driver" },
-			{ "cl3_carrera_gt_flame", 0, "driver" },
-			{ "cl3_carrera_gt_flame1", 0, "driver" },
-			{ "cl3_carrera_gt_flame2", 0, "driver" },
-			{ "cl3_carrera_gt_2tone1", 0, "driver" },
-			{ "cl3_carrera_gt_2tone2", 0, "driver" },
-			{ "cl3_carrera_gt_2tone3", 0, "driver" },
-			{ "cl3_carrera_gt_2tone4", 0, "driver" },
-			{ "cl3_carrera_gt_2tone5", 0, "driver" },
-			{ "cl3_range_rover_yellow", 0, "driver" },
-			{ "cl3_range_rover_black", 0, "driver" },
-			{ "cl3_range_rover_blue", 0, "driver" },
-			{ "cl3_range_rover_aqua", 0, "driver" },
-			{ "cl3_range_rover_babyblue", 0, "driver" },
-			{ "cl3_range_rover_babypink", 0, "driver" },
-			{ "cl3_range_rover_red", 0, "driver" },
-			{ "cl3_range_rover_burgundy", 0, "driver" },
-			{ "cl3_range_rover_cardinal", 0, "driver" },
-			{ "cl3_range_rover_dark_green", 0, "driver" },
-			{ "cl3_range_rover_gold", 0, "driver" },
-			{ "cl3_range_rover_green", 0, "driver" },
-			{ "cl3_range_rover_grey", 0, "driver" },
-			{ "cl3_range_rover_lavender", 0, "driver" },
-			{ "cl3_range_rover_light_blue", 0, "driver" },
-			{ "cl3_range_rover_light_yellow", 0, "driver" },
-			{ "cl3_range_rover_lime", 0, "driver" },
-			{ "cl3_range_rover_marina_blue", 0, "driver" },
-			{ "cl3_range_rover_navy_blue", 0, "driver" },
-			{ "cl3_range_rover_orange", 0, "driver" },
-			{ "cl3_range_rover_purple", 0, "driver" },
-			{ "cl3_range_rover_sand", 0, "driver" },
-			{ "cl3_range_rover_silver", 0, "driver" },
-			{ "cl3_range_rover_camo", 0, "driver" },
-			{ "cl3_range_rover_camo_urban", 0, "driver" },
-			{ "cl3_range_rover_white", 0, "driver" },
-			{ "cl3_range_rover_violet", 0, "driver" },
-			{ "cl3_range_rover_flame", 0, "driver" },
-			{ "cl3_range_rover_flame1", 0, "driver" },
-			{ "cl3_range_rover_flame2", 0, "driver" },
-			{ "cl3_range_rover_2tone1", 0, "driver" },
-			{ "cl3_range_rover_2tone2", 0, "driver" },
-			{ "cl3_range_rover_2tone3", 0, "driver" },
-			{ "cl3_range_rover_2tone4", 0, "driver" },
-			{ "cl3_range_rover_2tone5", 0, "driver" },
+			{ "cl3_range_rover_yellow", 0, "driver" },// range rover
+			{ "cl3_range_rover_black", 0, "driver" },// range rover
+			{ "cl3_range_rover_blue", 0, "driver" },// range rover
+			{ "cl3_range_rover_aqua", 0, "driver" },// range rover
+			{ "cl3_range_rover_babyblue", 0, "driver" },// range rover
+			{ "cl3_range_rover_babypink", 0, "driver" },// range rover
+			{ "cl3_range_rover_red", 0, "driver" },// range rover
+			{ "cl3_range_rover_burgundy", 0, "driver" },// range rover
+			{ "cl3_range_rover_cardinal", 0, "driver" },// range rover
+			{ "cl3_range_rover_dark_green", 0, "driver" },// range rover
+			{ "cl3_range_rover_gold", 0, "driver" },// range rover
+			{ "cl3_range_rover_green", 0, "driver" },// range rover
+			{ "cl3_range_rover_grey", 0, "driver" },// range rover
+			{ "cl3_range_rover_lavender", 0, "driver" },// range rover
+			{ "cl3_range_rover_light_blue", 0, "driver" },// range rover
+			{ "cl3_range_rover_light_yellow", 0, "driver" },// range rover
+			{ "cl3_range_rover_lime", 0, "driver" },// range rover
+			{ "cl3_range_rover_marina_blue", 0, "driver" },// range rover
+			{ "cl3_range_rover_navy_blue", 0, "driver" },// range rover
+			{ "cl3_range_rover_orange", 0, "driver" },// range rover
+			{ "cl3_range_rover_purple", 0, "driver" },// range rover
+			{ "cl3_range_rover_sand", 0, "driver" },// range rover
+			{ "cl3_range_rover_silver", 0, "driver" },// range rover
+			{ "cl3_range_rover_camo", 0, "driver" },// range rover
+			{ "cl3_range_rover_camo_urban", 0, "driver" },// range rover
+			{ "cl3_range_rover_white", 0, "driver" },// range rover
+			{ "cl3_range_rover_violet", 0, "driver" },// range rover
+			{ "cl3_range_rover_flame", 0, "driver" },// range rover
+			{ "cl3_range_rover_flame1", 0, "driver" },// range rover
+			{ "cl3_range_rover_flame2", 0, "driver" },// range rover
+			{ "cl3_range_rover_2tone1", 0, "driver" },// range rover
+			{ "cl3_range_rover_2tone2", 0, "driver" },// range rover
+			{ "cl3_range_rover_2tone3", 0, "driver" },// range rover
+			{ "cl3_range_rover_2tone4", 0, "driver" },// range rover
+			{ "cl3_range_rover_2tone5", 0, "driver" },// range rover
 			{ "cl3_golf_mk2_yellow", 0, "driver" },
 			{ "cl3_golf_mk2_black", 0, "driver" },
 			{ "cl3_golf_mk2_blue", 0, "driver" },
@@ -605,85 +393,302 @@ class CarShops {
 			{ "cl3_veyron_2tone3", 0, "driver" },
 			{ "cl3_veyron_2tone4", 0, "driver" },
 			{ "cl3_veyron_2tone5", 0, "driver" },
-			{ "cl3_dodge_charger_o_black", 0, "driver" },
-			{ "cl3_dodge_charger_f_black", 0, "driver" },
-			{ "cl3_dodge_charger_s_blue", 0, "driver" },
-			{ "cl3_dodge_charger_o_blue", 0, "driver" },
-			{ "cl3_dodge_charger_f_blue", 0, "driver" },
-			{ "cl3_dodge_charger_s_camo", 0, "driver" },
-			{ "cl3_dodge_charger_o_camo", 0, "driver" },
-			{ "cl3_dodge_charger_f_camo", 0, "driver" },
-			{ "cl3_dodge_charger_s_camourban", 0, "driver" },
-			{ "cl3_dodge_charger_o_camourban", 0, "driver" },
-			{ "cl3_dodge_charger_f_camourban", 0, "driver" },
-			{ "cl3_dodge_charger_s_darkgreen", 0, "driver" },
-			{ "cl3_dodge_charger_o_darkgreen", 0, "driver" },
-			{ "cl3_dodge_charger_f_darkgreen", 0, "driver" },
-			{ "cl3_dodge_charger_s_darkred", 0, "driver" },
-			{ "cl3_dodge_charger_o_darkred", 0, "driver" },
-			{ "cl3_dodge_charger_f_darkred", 0, "driver" },
-			{ "cl3_dodge_charger_s_grey", 0, "driver" },
-			{ "cl3_dodge_charger_o_grey", 0, "driver" },
-			{ "cl3_dodge_charger_f_grey", 0, "driver" },
-			{ "cl3_dodge_charger_s_green", 0, "driver" },
-			{ "cl3_dodge_charger_o_green", 0, "driver" },
-			{ "cl3_dodge_charger_f_green", 0, "driver" },
-			{ "cl3_dodge_charger_s_lime", 0, "driver" },
-			{ "cl3_dodge_charger_o_lime", 0, "driver" },
-			{ "cl3_dodge_charger_f_lime", 0, "driver" },
-			{ "cl3_dodge_charger_s_orange", 0, "driver" },
-			{ "cl3_dodge_charger_o_orange", 0, "driver" },
-			{ "cl3_dodge_charger_f_orange", 0, "driver" },
-			{ "cl3_dodge_charger_s_purple", 0, "driver" },
-			{ "cl3_dodge_charger_o_purple", 0, "driver" },
-			{ "cl3_dodge_charger_f_purple", 0, "driver" },
-			{ "cl3_dodge_charger_s_red", 0, "driver" },
-			{ "cl3_dodge_charger_o_red", 0, "driver" },
-			{ "cl3_dodge_charger_f_red", 0, "driver" },
-			{ "cl3_dodge_charger_s_white", 0, "driver" },
-			{ "cl3_dodge_charger_o_white", 0, "driver" },
-			{ "cl3_dodge_charger_f_white", 0, "driver" },
-			{ "cl3_dodge_charger_s_yellow", 0, "driver" },
-			{ "cl3_dodge_charger_o_yellow", 0, "driver" },
-			{ "cl3_dodge_charger_f_yellow", 0, "driver" },
-			{ "cl3_dodge_charger_s_pink", 0, "driver" },
-			{ "cl3_dodge_charger_o_pink", 0, "driver" },
-			{ "cl3_dodge_charger_f_pink", 0, "driver" },
-			{ "cl3_transit_yellow", 0, "driver" },
-			{ "cl3_transit_black", 0, "driver" },
-			{ "cl3_transit_blue", 0, "driver" },
-			{ "cl3_transit_aqua", 0, "driver" },
-			{ "cl3_transit_babyblue", 0, "driver" },
-			{ "cl3_transit_babypink", 0, "driver" },
-			{ "cl3_transit_red", 0, "driver" },
-			{ "cl3_transit_burgundy", 0, "driver" },
-			{ "cl3_transit_cardinal", 0, "driver" },
-			{ "cl3_transit_dark_green", 0, "driver" },
-			{ "cl3_transit_gold", 0, "driver" },
-			{ "cl3_transit_green", 0, "driver" },
-			{ "cl3_transit_grey", 0, "driver" },
-			{ "cl3_transit_lavender", 0, "driver" },
-			{ "cl3_transit_light_blue", 0, "driver" },
-			{ "cl3_transit_light_yellow", 0, "driver" },
-			{ "cl3_transit_lime", 0, "driver" },
-			{ "cl3_transit_marina_blue", 0, "driver" },
-			{ "cl3_transit_navy_blue", 0, "driver" },
-			{ "cl3_transit_orange", 0, "driver" },
-			{ "cl3_transit_purple", 0, "driver" },
-			{ "cl3_transit_sand", 0, "driver" },
-			{ "cl3_transit_silver", 0, "driver" },
-			{ "cl3_transit_camo", 0, "driver" },
-			{ "cl3_transit_camo_urban", 0, "driver" },
-			{ "cl3_transit_white", 0, "driver" },
-			{ "cl3_transit_violet", 0, "driver" },
-			{ "cl3_transit_flame", 0, "driver" },
-			{ "cl3_transit_flame1", 0, "driver" },
-			{ "cl3_transit_flame2", 0, "driver" },
-			{ "cl3_transit_2tone1", 0, "driver" },
-			{ "cl3_transit_2tone2", 0, "driver" },
-			{ "cl3_transit_2tone3", 0, "driver" },
-			{ "cl3_transit_2tone4", 0, "driver" },
-			{ "cl3_transit_2tone5", 0, "driver" }
+			{ "cl3_transit_yellow", 0, "driver" }, //transit
+			{ "cl3_transit_black", 0, "driver" }, //transit
+			{ "cl3_transit_blue", 0, "driver" }, //transit
+			{ "cl3_transit_aqua", 0, "driver" }, //transit
+			{ "cl3_transit_babyblue", 0, "driver" }, //transit
+			{ "cl3_transit_babypink", 0, "driver" }, //transit
+			{ "cl3_transit_red", 0, "driver" }, //transit
+			{ "cl3_transit_burgundy", 0, "driver" }, //transit
+			{ "cl3_transit_cardinal", 0, "driver" }, //transit
+			{ "cl3_transit_dark_green", 0, "driver" }, //transit
+			{ "cl3_transit_gold", 0, "driver" }, //transit
+			{ "cl3_transit_green", 0, "driver" }, //transit
+			{ "cl3_transit_grey", 0, "driver" }, //transit
+			{ "cl3_transit_lavender", 0, "driver" }, //transit
+			{ "cl3_transit_light_blue", 0, "driver" }, //transit
+			{ "cl3_transit_light_yellow", 0, "driver" }, //transit
+			{ "cl3_transit_lime", 0, "driver" }, //transit
+			{ "cl3_transit_marina_blue", 0, "driver" }, //transit
+			{ "cl3_transit_navy_blue", 0, "driver" }, //transit
+			{ "cl3_transit_orange", 0, "driver" }, //transit
+			{ "cl3_transit_purple", 0, "driver" }, //transit
+			{ "cl3_transit_sand", 0, "driver" }, //transit
+			{ "cl3_transit_silver", 0, "driver" }, //transit
+			{ "cl3_transit_camo", 0, "driver" }, //transit
+			{ "cl3_transit_camo_urban", 0, "driver" }, //transit
+			{ "cl3_transit_white", 0, "driver" }, //transit
+			{ "cl3_transit_violet", 0, "driver" }, //transit
+			{ "cl3_transit_flame", 0, "driver" }, //transit
+			{ "cl3_transit_flame1", 0, "driver" }, //transit
+			{ "cl3_transit_flame2", 0, "driver" }, //transit
+			{ "cl3_transit_2tone1", 0, "driver" }, //transit
+			{ "cl3_transit_2tone2", 0, "driver" }, //transit
+			{ "cl3_transit_2tone3", 0, "driver" }, //transit
+			{ "cl3_transit_2tone4", 0, "driver" }, //transit
+			{ "cl3_transit_2tone5", 0, "driver" } //transit
+		};
+	};
+	
+	class civ_car_luxe {
+		side = "civ";
+		vehicles[] = {
+		{ "cl3_reventon_yellow", 0, "driver" },
+			{ "cl3_reventon_black", 0, "driver" },
+			{ "cl3_reventon_blue", 0, "driver" },
+			{ "cl3_reventon_aqua", 0, "driver" },
+			{ "cl3_reventon_babyblue", 0, "driver" },
+			{ "cl3_reventon_babypink", 0, "driver" },
+			{ "cl3_reventon_red", 0, "driver" },
+			{ "cl3_reventon_burgundy", 0, "driver" },
+			{ "cl3_reventon_cardinal", 0, "driver" },
+			{ "cl3_reventon_dark_green", 0, "driver" },
+			{ "cl3_reventon_gold", 0, "driver" },
+			{ "cl3_reventon_green", 0, "driver" },
+			{ "cl3_reventon_grey", 0, "driver" },
+			{ "cl3_reventon_lavender", 0, "driver" },
+			{ "cl3_reventon_light_blue", 0, "driver" },
+			{ "cl3_reventon_light_yellow", 0, "driver" },
+			{ "cl3_reventon_lime", 0, "driver" },
+			{ "cl3_reventon_marina_blue", 0, "driver" },
+			{ "cl3_reventon_navy_blue", 0, "driver" },
+			{ "cl3_reventon_orange", 0, "driver" },
+			{ "cl3_reventon_purple", 0, "driver" },
+			{ "cl3_reventon_sand", 0, "driver" },
+			{ "cl3_reventon_silver", 0, "driver" },
+			{ "cl3_reventon_camo", 0, "driver" },
+			{ "cl3_reventon_camo_urban", 0, "driver" },
+			{ "cl3_reventon_white", 0, "driver" },
+			{ "cl3_reventon_violet", 0, "driver" },
+			{ "cl3_reventon_flame", 0, "driver" },
+			{ "cl3_reventon_flame1", 0, "driver" },
+			{ "cl3_reventon_flame2", 0, "driver" },
+			{ "cl3_reventon_2tone1", 0, "driver" },
+			{ "cl3_reventon_2tone2", 0, "driver" },
+			{ "cl3_reventon_2tone3", 0, "driver" },
+			{ "cl3_reventon_2tone4", 0, "driver" },
+			{ "cl3_reventon_2tone5", 0, "driver" },
+			{ "cl3_lamborghini_gt1_yellow", 0, "driver" },
+			{ "cl3_lamborghini_gt1_black", 0, "driver" },
+			{ "cl3_lamborghini_gt1_blue", 0, "driver" },
+			{ "cl3_lamborghini_gt1_aqua", 0, "driver" },
+			{ "cl3_lamborghini_gt1_babyblue", 0, "driver" },
+			{ "cl3_lamborghini_gt1_babypink", 0, "driver" },
+			{ "cl3_lamborghini_gt1_red", 0, "driver" },
+			{ "cl3_lamborghini_gt1_burgundy", 0, "driver" },
+			{ "cl3_lamborghini_gt1_cardinal", 0, "driver" },
+			{ "cl3_lamborghini_gt1_dark_green", 0, "driver" },
+			{ "cl3_lamborghini_gt1_gold", 0, "driver" },
+			{ "cl3_lamborghini_gt1_green", 0, "driver" },
+			{ "cl3_lamborghini_gt1_grey", 0, "driver" },
+			{ "cl3_lamborghini_gt1_lavender", 0, "driver" },
+			{ "cl3_lamborghini_gt1_light_blue", 0, "driver" },
+			{ "cl3_lamborghini_gt1_light_yellow", 0, "driver" },
+			{ "cl3_lamborghini_gt1_lime", 0, "driver" },
+			{ "cl3_lamborghini_gt1_marina_blue", 0, "driver" },
+			{ "cl3_lamborghini_gt1_navy_blue", 0, "driver" },
+			{ "cl3_lamborghini_gt1_orange", 0, "driver" },
+			{ "cl3_lamborghini_gt1_purple", 0, "driver" },
+			{ "cl3_lamborghini_gt1_sand", 0, "driver" },
+			{ "cl3_lamborghini_gt1_silver", 0, "driver" },
+			{ "cl3_lamborghini_gt1_camo", 0, "driver" },
+			{ "cl3_lamborghini_gt1_camo_urban", 0, "driver" },
+			{ "cl3_lamborghini_gt1_white", 0, "driver" },
+			{ "cl3_lamborghini_gt1_violet", 0, "driver" },
+			{ "cl3_lamborghini_gt1_flame", 0, "driver" },
+			{ "cl3_lamborghini_gt1_flame1", 0, "driver" },
+			{ "cl3_lamborghini_gt1_flame2", 0, "driver" },
+			{ "cl3_lamborghini_gt1_2tone1", 0, "driver" },
+			{ "cl3_lamborghini_gt1_2tone2", 0, "driver" },
+			{ "cl3_lamborghini_gt1_2tone3", 0, "driver" },
+			{ "cl3_lamborghini_gt1_2tone4", 0, "driver" },
+			{ "cl3_lamborghini_gt1_2tone5", 0, "driver" },
+			{ "C_Van_01_fuel_F", 0, "driver" }, //van
+			{ "cl3_458_yellow", 0, "driver" }, //ferrari
+			{ "cl3_458_black", 0, "driver" }, //ferrari
+			{ "cl3_458_blue", 0, "driver" }, //ferrari
+			{ "cl3_458_aqua", 0, "driver" }, //ferrari
+			{ "cl3_458_babyblue", 0, "driver" }, //ferrari
+			{ "cl3_458_babypink", 0, "driver" }, //ferrari
+			{ "cl3_458_red", 0, "driver" }, //ferrari
+			{ "cl3_458_burgundy", 0, "driver" }, //ferrari
+			{ "cl3_458_cardinal", 0, "driver" }, //ferrari
+			{ "cl3_458_dark_green", 0, "driver" }, //ferrari
+			{ "cl3_458_gold", 0, "driver" }, //ferrari
+			{ "cl3_458_green", 0, "driver" }, //ferrari
+			{ "cl3_458_grey", 0, "driver" }, //ferrari
+			{ "cl3_458_lavender", 0, "driver" }, //ferrari
+			{ "cl3_458_light_blue", 0, "driver" }, //ferrari
+			{ "cl3_458_light_yellow", 0, "driver" }, //ferrari
+			{ "cl3_458_lime", 0, "driver" }, //ferrari
+			{ "cl3_458_marina_blue", 0, "driver" }, //ferrari
+			{ "cl3_458_navy_blue", 0, "driver" }, //ferrari
+			{ "cl3_458_orange", 0, "driver" }, //ferrari
+			{ "cl3_458_purple", 0, "driver" }, //ferrari
+			{ "cl3_458_sand", 0, "driver" }, //ferrari
+			{ "cl3_458_silver", 0, "driver" }, //ferrari
+			{ "cl3_458_camo", 0, "driver" }, //ferrari
+			{ "cl3_458_camo_urban", 0, "driver" }, //ferrari
+			{ "cl3_458_white", 0, "driver" }, //ferrari
+			{ "cl3_458_violet", 0, "driver" }, //ferrari
+			{ "cl3_458_flame", 0, "driver" }, //ferrari
+			{ "cl3_458_flame1", 0, "driver" }, //ferrari
+			{ "cl3_458_flame2", 0, "driver" }, //ferrari
+			{ "cl3_458_2tone1", 0, "driver" }, //ferrari
+			{ "cl3_458_2tone2", 0, "driver" }, //ferrari
+			{ "cl3_458_2tone3", 0, "driver" }, //ferrari
+			{ "cl3_458_2tone4", 0, "driver" }, //ferrari
+			{ "cl3_458_2tone5", 0, "driver" }, //ferrari
+			{ "cl3_murcielago_yellow", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_black", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_blue", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_aqua", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_babyblue", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_babypink", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_red", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_burgundy", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_cardinal", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_dark_green", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_gold", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_green", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_grey", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_lavender", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_light_blue", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_light_yellow", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_lime", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_marina_blue", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_navy_blue", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_orange", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_purple", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_sand", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_silver", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_camo", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_camo_urban", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_white", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_violet", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_flame", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_flame1", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_flame2", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_2tone1", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_2tone2", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_2tone3", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_2tone4", 0, "driver" }, //lamborgini
+			{ "cl3_murcielago_2tone5", 0, "driver" }, //lamborgini
+			{ "cl3_r8_spyder_yellow", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_black", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_blue", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_aqua", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_babyblue", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_babypink", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_red", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_burgundy", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_cardinal", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_dark_green", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_gold", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_green", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_grey", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_lavender", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_light_blue", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_light_yellow", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_lime", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_marina_blue", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_navy_blue", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_orange", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_purple", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_sand", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_silver", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_camo", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_camo_urban", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_white", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_violet", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_flame", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_flame1", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_flame2", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_2tone1", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_2tone2", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_2tone3", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_2tone4", 0, "driver" }, //audi R8
+			{ "cl3_r8_spyder_2tone5", 0, "driver" }, //audi R8
+			{ "cl3_carrera_gt_yellow", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_black", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_blue", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_aqua", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_babyblue", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_babypink", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_red", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_burgundy", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_cardinal", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_dark_green", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_gold", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_green", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_grey", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_lavender", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_light_blue", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_light_yellow", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_lime", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_marina_blue", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_navy_blue", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_orange", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_purple", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_sand", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_silver", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_camo", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_camo_urban", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_white", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_violet", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_flame", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_flame1", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_flame2", 0, "driver" }, // porche
+			{ "cl3_carrera_gt_2tone1", 0, "driver" },// porche
+			{ "cl3_carrera_gt_2tone2", 0, "driver" },// porche
+			{ "cl3_carrera_gt_2tone3", 0, "driver" },// porche
+			{ "cl3_carrera_gt_2tone4", 0, "driver" },// porche
+			{ "cl3_carrera_gt_2tone5", 0, "driver" },// porche
+			{ "cl3_dodge_charger_o_black", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_f_black", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_s_blue", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_o_blue", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_f_blue", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_s_camo", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_o_camo", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_f_camo", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_s_camourban", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_o_camourban", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_f_camourban", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_s_darkgreen", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_o_darkgreen", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_f_darkgreen", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_s_darkred", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_o_darkred", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_f_darkred", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_s_grey", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_o_grey", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_f_grey", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_s_green", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_o_green", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_f_green", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_s_lime", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_o_lime", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_f_lime", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_s_orange", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_o_orange", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_f_orange", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_s_purple", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_o_purple", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_f_purple", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_s_red", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_o_red", 0, "driver" }, //dodge
+			{ "cl3_dodge_charger_f_red", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_s_white", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_o_white", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_f_white", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_s_yellow", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_o_yellow", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_f_yellow", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_s_pink", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_o_pink", 0, "driver" },//dodge
+			{ "cl3_dodge_charger_f_pink", 0, "driver" }//dodge
 		};
 	};
 
@@ -750,6 +755,7 @@ class CarShops {
 		side = "cop";
 		vehicles[] = {
 			{ "ALE_GendQ7", 0, ""},
+			{ "cl3_reventon_clpd", 0, "" },
 			{ "DAR_DAR_02FirebirdSSVPolice", 0, "" },
 			{ "DAR_TahoePolice", 0, "" },
 			{ "DAR_TahoePoliceDet", 0, "" },
@@ -772,6 +778,7 @@ class CarShops {
 			{ "TCG_Charger14PD", 0, "" },
 			{ "ALFR_GeK_Panamera_Police", 0, "" },
 			{ "ALE_GendSUV", 0, "" },
+			{ "cl3_murcielago_yellow", 0, "" },
 			{ "ALE_GendOffroad", 0, "" },
 			{ "B_MRAP_01_F", 0, "" }
 		};
@@ -966,7 +973,97 @@ class CarShops {
 			{ "Cha_Mi17_rockets_RU", 0, "milice" },
 			{ "Cha_Mi17_CDF", 0, "milice" },
 			{ "Cha_Mi17_TK_EP1", 0, "milice" },
+			{ "Cha_BRDM2_ChDKZ", 0, "milice" },
+			{ "Cha_BRDM2_ATGM_ChDKZ", 0, "milice" },
+			{ "Cha_BRDM2_HQ_ChDKZ", 0, "milice" },
+			{ "Cha_BRDM2_CDF", 0, "milice" },
+			{ "Cha_BRDM2_ATGM_CDF", 0, "milice" },
+			{ "Cha_BRDM2_HQ_CDF", 0, "milice" },
+			{ "Cha_BTR60_CDF", 0, "milice" },
+			{ "RU_MBT_02_arty_F", 0, "milice" },
+			{ "RU_MBT_02_cannon_F", 0, "milice" },
+			{ "RU_APC_Tracked_02_AA_F", 0, "milice" },
+			{ "SUD_BTR100", 0, "milice" },
+			{ "SUD_Kamaz_transport", 0, "milice" },
+			{ "SUD_Kamaz_covered", 0, "milice" },
 			{ "Cha_Mi171Sh_rockets_CZ_EP1", 0, "milice" }
+		};
+	};
+	
+	class milice_air {
+		side = "civ";
+		vehicles[] = {
+			{ "Cha_Mi17_Ins", 0, "milice" },
+			{ "Cha_Mi17_CDF", 0, "milice" },
+			{ "Cha_Mi17_rockets_RU", 0, "milice" },
+			{ "SUD_KA60_RU", 0, "milice" },
+			{ "SUD_MI48_RU", 0, "milice" },
+			{ "Cha_Mi17_medevac_RU", 0, "milice" },
+			{ "Cha_Mi17_medevac_CDF", 0, "milice" },
+			{ "Cha_Mi17_medevac_Ins", 0, "milice" },
+			{ "B_G_Van_01_transport_F", 0, "milice" }
+		};
+	};
+	
+	class milice_ship {
+		side = "civ";
+		vehicles[] = {
+			{ "O_Boat_Armed_01_hmg_F", 0, "milice" },
+			{ "SUD_RU_Assaultboat", 0, "milice" },
+			{ "O_Boat_Transport_01_F", 0, "milice" },
+			{ "O_SDV_01_F", 0, "milice" },
+			{ "O_CBS_WaterShadow730_F", 0, "milice" }
+		};
+	};
+	
+	class mafia_car {
+		side = "civ";
+		vehicles[] = {
+			{ "CL3_Black_SUV_01_F", 0, "mafia" },
+			{ "CL3_Grey_SUV_01_F", 0, "mafia" },
+			{ "DAR_ChargerCiv", 0, "mafia" },
+			{ "DAR_ImpalaCivA", 0, "mafia" },
+			{ "DAR_FusionCivBlack", 0, "mafia" },
+			{ "DAR_TahoeCivBlack", 0, "mafia" },
+			{ "DAR_MF1Civ", 0, "mafia" },
+			{ "DAR_MF1Silver", 0, "mafia" },
+			{ "DAR_TahoeCivSilver", 0, "mafia" },
+			{ "DAR_TahoeCiv", 0, "mafia" },
+			{ "DAR_M3CivGrey", 0, "mafia" },
+			{ "DAR_M3CivWhite", 0, "mafia" },
+			{ "DAR_ChallengerCivWhite", 0, "mafia" },
+			{ "DAR_FusionCiv", 0, "mafia" },
+			{ "A3L_ChargerWhit", 0, "mafia" },
+			{ "DAR_TaurusCiv", 0, "mafia" },
+			{ "BMW_M5White", 0, "mafia" },
+			{ "A3L_PuntoBlack", 0, "mafia" },
+			{ "A3L_PuntoGrey", 0, "mafia" },
+			{ "A3L_PuntoWhite", 0, "mafia" },
+			{ "DAR_ImpalaCivD", 0, "mafia" },
+			{ "ALFR_GeK_Panamera", 0, "mafia" },
+			{ "cl3_civic_vti_black", 0, "mafia" },
+			{ "cl3_transit_black", 0, "mafia" },
+			{ "cl3_dbs_volante_black", 0, "mafia" },
+			{ "cl3_e63_amg_black", 0, "mafia" },
+			{ "cl3_e60_m5_black", 0, "mafia" },
+			{ "cl3_z4_2008_black", 0, "mafia" },
+			{ "cl3_civic_vti_white", 0, "mafia" },
+			{ "cl3_transit_white", 0, "mafia" },
+			{ "cl3_dbs_volante_white", 0, "mafia" },
+			{ "cl3_e63_amg_white", 0, "mafia" },
+			{ "cl3_e60_m5_white", 0, "mafia" },
+			{ "cl3_z4_2008_white", 0, "mafia" },
+			{ "cl3_taurus_white", 0, "mafia" },
+			{ "cl3_taurus_grey", 0, "mafia" }
+			
+		};
+	};
+	
+	class mafia_air {
+		side = "civ";
+		vehicles[] = {
+			{ "Cha_Mi8_Cia", 0, "mafia" },
+			{ "C_Heli_Light_01_civil_F", 0, "mafia" }
 		};
 	};
 };

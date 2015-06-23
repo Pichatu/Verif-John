@@ -22,6 +22,7 @@ switch (_mode) do
 			case "gun": {_var = "license_civ_gun"}; //Firearm/gun license cost
 			case "dive": {_var = "license_civ_dive"}; //Diving license cost
 			case "oil": {_var = "license_civ_oil"}; //Oil processing license cost
+			case "petrole": {_var = "license_civ_petrole"}; //Oil processing license cost
 			case "cair": {_var = "license_cop_air"}; //Cop Pilot License cost
 			case "swat": {_var = "license_cop_swat"}; //Swat License cost
 			case "cg": {_var = "license_cop_cg"}; //Coast guard license cost
@@ -44,6 +45,7 @@ switch (_mode) do
 			case "giap": {_var = "license_cop_giap"};
 			case "taxi": {_var = "license_civ_taxi"};
 			case "milice": {_var = "license_civ_milice"};
+			case "mafia": {_var = "license_civ_mafia"};
 			default {_var = ""};
 		};
 	};
@@ -80,6 +82,7 @@ switch (_mode) do
 			case "license_cop_giap": {_var = "giap"};
 			case "license_civ_taxi": {_var = "taxi"};
 			case "license_civ_milice": {_var = "milice"};
+			case "license_civ_mafia": {_var = "mafia"};
 			default {_var = ""};
 		};
 	};

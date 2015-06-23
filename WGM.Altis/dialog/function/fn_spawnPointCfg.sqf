@@ -71,6 +71,14 @@ switch (_side) do
 	
 	case civilian:
 	{
+		if(playerSide == civilian) then {
+        	_return = [
+            ["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+            ];
+    };
 
 	if(license_civ_milice && playerSide == civilian) then {
         	_return = [
@@ -81,16 +89,16 @@ switch (_side) do
 			["milice_spawn","Milice","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
             ];
     };
-
-    if(!license_civ_milice && playerSide == civilian) then {
+	
+	if(license_civ_mafia && playerSide == civilian) then {
         	_return = [
             ["civ_spawn_1","Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_2","Pyrgos","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["civ_spawn_3","Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
-			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
+			["civ_spawn_4","Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
+			["mafia_spawn","Mafia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
             ];
     };
-		
 		if(count life_houses > 0) then {
 			{
 				_pos = call compile format["%1",_x select 0];
