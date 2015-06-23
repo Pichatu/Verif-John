@@ -1,0 +1,16 @@
+this addAction["Vendeur de véhicules",life_fnc_vehicleShopMenu,["med_shop",independent,"med_car_1","med","Hopital de Kavala"]];
+  this addAction["Hélicoptères",life_fnc_vehicleShopMenu,["med_air_hs",independent,"medic_spawn_1","med","Hopital de Kavala"]];
+  this addAction["Garage",  {   [[getPlayerUID player,playerSide,"Car",player],"TON_fnc_getVehicles",false,false] call life_fnc_MP;
+   createDialog "Life_impound_menu";
+   disableSerialization;
+   ctrlSetText[2802,"Recherche du vehicule ..."];
+   life_garage_sp = "med_car_1";
+ life_garage_type = "Car";
+  },"",0,false,false,"",'playerSide == independent '];
+  this addAction["Helicopter Garage",  {   [[getPlayerUID player,playerSide,"Air",player],"TON_fnc_getVehicles",false,false] call life_fnc_MP;
+   createDialog "Life_impound_menu";
+   disableSerialization;
+   ctrlSetText[2802,"Recherche du vehicule ..."];
+   life_garage_sp = "medic_spawn_1";
+ life_garage_type = "Air";
+  },"",0,false,false,"",'playerSide == independent '];

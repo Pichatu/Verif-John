@@ -1,0 +1,11 @@
+this enableSimulation false;
+  this allowDamage false;
+  this addAction["Bateaux",life_fnc_vehicleShopMenu,["civ_ship",civilian,"civ_ship_1","civ","Armateur de bateaux"]];
+  this addAction["Ranger le bateau",  {   [[getPlayerUID player,playerSide,"Ship",player],"TON_fnc_getVehicles",false,false] call life_fnc_MP;
+   createDialog "Life_impound_menu";
+   disableSerialization;
+   ctrlSetText[2802,"Recherche du bateau ..."];
+   life_garage_sp = "civ_ship_1";
+ life_garage_type = "Ship";
+  },"",0,false,false,"",'playerSide == civilian'];
+  this addAction["Ranger le bateau",life_fnc_storeVehicle,"",0,false,false,"",'!life_garage_store'];
